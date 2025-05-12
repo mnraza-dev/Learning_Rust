@@ -12,3 +12,13 @@ fn main() {
 fn process_interger(x: u8) {
     println!("{}", x);
 }
+
+/*
+NOTE: Ownership
+🎯 The Three Rules of Ownership
+Each value has a single owner.
+
+A value can only have one owner at a time.
+
+When the owner goes out of scope, the value is dropped.
+ */
