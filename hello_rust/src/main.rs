@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, there!");
+    let num: u8 = 15;
+
+    println!("The value stored in num is {}", num);
 }
