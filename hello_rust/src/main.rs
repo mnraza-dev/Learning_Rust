@@ -31,10 +31,13 @@ fn main() {
 
     println!("The value stored in string is {}", string);
 
-    // Rust has a special type called `Option` that can be used to represent a value that may or may not be present
-    let optional_value: Option<u8> = Some(56);
-    println!("The value stored in optional_value is {:?}", optional_value);
 
-    let optional_value: Option<u8> = None;
-    println!("The value stored in optional_value is {:?}", optional_value);
+    // tuple
+    // A tuple is a collection of values of different types
+    // Tuples are immutable by default
+    // Tuples are created using parentheses
+    let tuple: (u8, f32, &str) = (56, 3.14, "Hello"); // This is a tuple
+    println!("The value stored in tuple is {:?}", tuple);
+
+    
 }
