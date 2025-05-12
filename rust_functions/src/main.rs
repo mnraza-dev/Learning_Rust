@@ -5,7 +5,6 @@ fn main() {
     let result: u8 = add(num1, num2);
     println!("The sum of {} and {} is {}", num1, num2, result);
 }
-
 fn print_value() {
     println!("This is a function");
 }
