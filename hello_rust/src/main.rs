@@ -31,13 +31,18 @@ fn main() {
 
     println!("The value stored in string is {}", string);
 
-
     // tuple
     // A tuple is a collection of values of different types
     // Tuples are immutable by default
     // Tuples are created using parentheses
-    let tuple: (u8, f32, &str) = (56, 3.14, "Hello"); // This is a tuple
-    println!("The value stored in tuple is {:?}", tuple);
 
+    let emp_info: (&str, u8) = ("MN Raza", 29); 
+    let emp_name = emp_info.0; 
+    let emp_age = emp_info.1;
+
+    //destructuring a tuple
+    let (name, age) = emp_info; 
+
+    println!("The name, age of the employee is {}, {}", name, age);
     
 }
